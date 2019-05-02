@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="XSLTTask.xsl" type="text/xsl"?>
+<public>
+	<building>
+		<id>1</id>
+		<adress>Breakfast street</adress>
+		<buildingnumber>10</buildingnumber>
+	</building>
+
+	<building>
+		<id>2</id>
+		<adress>Lunch street</adress>
+		<buildingnumber>25</buildingnumber>
+	</building>
+	
+	<equipment>
+		<id>2</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>1</roomid>
+	</equipment>
+
+	<equipment>
+		<id>3</id>
+		<name>Printer</name>
+		<status>Good</status>
+		<roomid>1</roomid>
+	</equipment>
+
+	<equipment>
+		<id>4</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>2</roomid>
+	</equipment>
+
+	<equipment>
+		<id>5</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>2</roomid>
+	</equipment>
+
+	<equipment>
+		<id>6</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>3</roomid>
+	</equipment>
+
+	<equipment>
+		<id>7</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>3</roomid>
+	</equipment>
+
+	<equipment>
+		<id>8</id>
+		<name>Computer</name>
+		<status>Need Repairment</status>
+		<roomid>3</roomid>
+	</equipment>
+
+	<equipment>
+		<id>9</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>4</roomid>
+	</equipment>
+
+	<equipment>
+		<id>10</id>
+		<name>Computer</name>
+		<status>On Repairment</status>
+		<roomid>4</roomid>
+	</equipment>
+
+	<equipment>
+		<id>11</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>4</roomid>
+	</equipment>
+
+	<equipment>
+		<id>12</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>5</roomid>
+	</equipment>
+
+	<equipment>
+		<id>13</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>5</roomid>
+	</equipment>
+
+	<equipment>
+		<id>14</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>5</roomid>
+	</equipment>
+
+	<equipment>
+		<id>15</id>
+		<name>Printer</name>
+		<status>Need Repairment</status>
+		<roomid>5</roomid>
+	</equipment>
+
+	<equipment>
+		<id>16</id>
+		<name>Computer</name>
+		<status>On Repairment</status>
+		<roomid>6</roomid>
+	</equipment>
+
+	<equipment>
+		<id>17</id>
+		<name>Printer</name>
+		<status>Good</status>
+		<roomid>6</roomid>
+	</equipment>
+
+	<equipment>
+		<id>1</id>
+		<name>Computer</name>
+		<status>Good</status>
+		<roomid>1</roomid>
+	</equipment>
+	
+	<rfid>
+		<id>1</id>
+		<roomid>1</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T10:03:00</time>
+		<workerid>6</workerid>
+	</rfid>
+
+	<rfid>
+		<id>3</id>
+		<roomid>3</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T08:01:00</time>
+		<workerid>2</workerid>
+	</rfid>
+
+	<rfid>
+		<id>5</id>
+		<roomid>2</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T09:15:00</time>
+		<workerid>2</workerid>
+	</rfid>
+
+	<rfid>
+		<id>6</id>
+		<roomid>3</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T12:32:00</time>
+		<workerid>2</workerid>
+	</rfid>
+
+	<rfid>
+		<id>7</id>
+		<roomid>4</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T08:08:00</time>
+		<workerid>3</workerid>
+	</rfid>
+
+	<rfid>
+		<id>8</id>
+		<roomid>4</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T07:49:00</time>
+		<workerid>7</workerid>
+	</rfid>
+
+	<rfid>
+		<id>10</id>
+		<roomid>4</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T15:32:00</time>
+		<workerid>7</workerid>
+	</rfid>
+
+	<rfid>
+		<id>12</id>
+		<roomid>1</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T08:00:00</time>
+		<workerid>4</workerid>
+	</rfid>
+
+	<rfid>
+		<id>14</id>
+		<roomid>1</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T08:15:00</time>
+		<workerid>4</workerid>
+	</rfid>
+
+	<rfid>
+		<id>16</id>
+		<roomid>1</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T13:28:00</time>
+		<workerid>4</workerid>
+	</rfid>
+
+	<rfid>
+		<id>17</id>
+		<roomid>1</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T18:58:00</time>
+		<workerid>4</workerid>
+	</rfid>
+
+	<rfid>
+		<id>18</id>
+		<roomid>5</roomid>
+		<movement>In</movement>
+		<time>2018-10-01T07:42:00</time>
+		<workerid>5</workerid>
+	</rfid>
+
+	<rfid>
+		<id>2</id>
+		<roomid>1</roomid>
+		<movement>Out</movement>
+		<time>2018-10-01T13:43:00</time>
+		<workerid>6</workerid>
+	</rfid>
+
+	<rfid>
+		<id>4</id>
+		<roomid>3</roomid>
+		<movement>Out</movement>
+		<time>2018-10-01T09:13:00</time>
+		<workerid>2</workerid>
+	</rfid>
+
+	<rfid>
+		<id>9</id>
+		<roomid>4</roomid>
+		<movement>Out</movement>
+		<time>2018-10-01T10:11:00</time>
+		<workerid>7</workerid>
+	</rfid>
+
+	<rfid>
+		<id>11</id>
+		<roomid>4</roomid>
+		<movement>Out</movement>
+		<time>2018-10-01T18:08:00</time>
+		<workerid>3</workerid>
+	</rfid>
+
+	<rfid>
+		<id>13</id>
+		<roomid>1</roomid>
+		<movement>Out</movement>
+		<time>2018-10-01T08:12:00</time>
+		<workerid>4</workerid>
+	</rfid>
+
+	<rfid>
+		<id>15</id>
+		<roomid>1</roomid>
+		<movement>Out</movement>
+		<time>2018-10-01T12:32:00</time>
+		<workerid>4</workerid>
+	</rfid>
+	
+	<room>
+  <id>1</id>
+  <roomnumber>1</roomnumber>
+  <floor>4</floor>
+  <buildingid>1</buildingid>
+</room>
+
+<room>
+  <id>2</id>
+  <roomnumber>2</roomnumber>
+  <floor>4</floor>
+  <buildingid>1</buildingid>
+</room>
+
+<room>
+  <id>3</id>
+  <roomnumber>15</roomnumber>
+  <floor>4</floor>
+  <buildingid>1</buildingid>
+</room>
+
+<room>
+  <id>4</id>
+  <roomnumber>1</roomnumber>
+  <floor>2</floor>
+  <buildingid>2</buildingid>
+</room>
+
+<room>
+  <id>5</id>
+  <roomnumber>2</roomnumber>
+  <floor>2</floor>
+  <buildingid>2</buildingid>
+</room>
+
+<room>
+  <id>6</id>
+  <roomnumber>1</roomnumber>
+  <floor>3</floor>
+  <buildingid>2</buildingid>
+</room>
+
+
+<worker>
+  <id>1</id>
+  <firstname>John</firstname>
+  <lastname>Smith</lastname>
+  <age>23</age>
+  <biography>Very accurate worker, works here from the beginning of the company.</biography>
+  <email>john.smith@email.com</email>
+  <phonenumber>202-555-0172</phonenumber>
+</worker>
+
+<worker>
+  <id>2</id>
+  <firstname>Sam</firstname>
+  <lastname>Fisher</lastname>
+  <age>27</age>
+  <biography>Very talanted, but don't want to work more hours in hour of need.</biography>
+  <email>sam.the.fisher@email.com</email>
+  <phonenumber>202-555-0143</phonenumber>
+</worker>
+
+<worker>
+  <id>3</id>
+  <firstname>Bob</firstname>
+  <lastname>Sample</lastname>
+  <age>25</age>
+  <biography>Does everything he can to improve the project.</biography>
+  <email>bob_from_new_zealand@email.com</email>
+  <phonenumber>202-555-0116</phonenumber>
+</worker>
+
+<worker>
+  <id>4</id>
+  <firstname>Sanny</firstname>
+  <lastname>Sky</lastname>
+  <age>21</age>
+  <biography>Young but no stranger for hard things.</biography>
+  <email>synnysky@email.com</email>
+  <phonenumber>202-555-0156</phonenumber>
+</worker>
+
+<worker>
+  <id>5</id>
+  <firstname>Clare</firstname>
+  <lastname>Savior</lastname>
+  <age>24</age>
+  <biography>Very positive and communicative person in our community.</biography>
+  <email>clare_savior@email.com</email>
+  <phonenumber>202-555-0158</phonenumber>
+</worker>
+
+<worker>
+  <id>6</id>
+  <firstname>Endrew</firstname>
+  <lastname>Poper</lastname>
+  <age>31</age>
+  <biography>CEO of the company.Know how the work must be done.</biography>
+  <email>poperendrew@email.com</email>
+  <phonenumber>202-555-0100</phonenumber>
+</worker>
+
+<worker>
+  <id>7</id>
+  <firstname>Ebighail</firstname>
+  <lastname>Purple</lastname>
+  <age>23</age>
+  <biography>Diligently does her work. Never been seen to complain</biography>
+  <email>ebighaill@email.com</email>
+  <phonenumber>202-555-0119</phonenumber>
+</worker>
+
+
+<workposition>
+  <id>1</id>
+  <positionname>CEO</positionname>
+  <workstarted>2016-01-01</workstarted>
+  <roomid>1</roomid>
+  <workerid>1</workerid>
+</workposition>
+
+<workposition>
+  <id>2</id>
+  <positionname>CEO</positionname>
+  <workstarted>2017-07-01</workstarted>
+  <roomid>1</roomid>
+  <workerid>6</workerid>
+</workposition>
+
+<workposition>
+  <id>3</id>
+  <positionname>BackEnd Developer</positionname>
+  <workstarted>2016-01-01</workstarted>
+  <roomid>3</roomid>
+  <workerid>2</workerid>
+</workposition>
+
+<workposition>
+  <id>4</id>
+  <positionname>FrontEnd Developer</positionname>
+  <workstarted>2016-06-01</workstarted>
+  <roomid>4</roomid>
+  <workerid>2</workerid>
+</workposition>
+
+<workposition>
+  <id>5</id>
+  <positionname>BackEnd Developer</positionname>
+  <workstarted>2018-01-01</workstarted>
+  <roomid>3</roomid>
+  <workerid>2</workerid>
+</workposition>
+
+<workposition>
+  <id>6</id>
+  <positionname>FrontEnd Developer</positionname>
+  <workstarted>2016-01-01</workstarted>
+  <roomid>4</roomid>
+  <workerid>7</workerid>
+</workposition>
+
+<workposition>
+  <id>7</id>
+  <positionname>FrontEnd Developer</positionname>
+  <workstarted>2017-06-01</workstarted>
+  <roomid>4</roomid>
+  <workerid>3</workerid>
+</workposition>
+
+<workposition>
+  <id>8</id>
+  <positionname>Secretary</positionname>
+  <workstarted>2017-08-15</workstarted>
+  <roomid>1</roomid>
+  <workerid>4</workerid>
+</workposition>
+
+<workposition>
+  <id>9</id>
+  <positionname>Project Manger</positionname>
+  <workstarted>2016-05-02</workstarted>
+  <roomid>5</roomid>
+  <workerid>2</workerid>
+</workposition>
+
+<workposition>
+  <id>10</id>
+  <positionname>Project Manger</positionname>
+  <workstarted>2017-05-02</workstarted>
+  <roomid>5</roomid>
+  <workerid>5</workerid>
+</workposition>
+
+</public>
